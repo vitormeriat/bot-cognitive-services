@@ -1,0 +1,501 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "maratona-bot-microsoft",
+  "desc": "",
+  "culture": "pt-br",
+  "intents": [
+    {
+      "name": "ajudar"
+    },
+    {
+      "name": "classificar-imagem"
+    },
+    {
+      "name": "consciencia"
+    },
+    {
+      "name": "descrever-imagem"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "recomendar-por-perfil"
+    },
+    {
+      "name": "recomendar-por-produto"
+    },
+    {
+      "name": "reconhecer-emocoes"
+    },
+    {
+      "name": "saudar"
+    },
+    {
+      "name": "traduzir-texto"
+    }
+  ],
+  "entities": [
+    {
+      "name": "produto"
+    },
+    {
+      "name": "usuario"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "bom dia",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "boa tarde",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "oi",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "olá",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "boa noite",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "tudo bem?",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "o que vc faz?",
+      "intent": "ajudar",
+      "entities": []
+    },
+    {
+      "text": "qual o seu nome?",
+      "intent": "consciencia",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "ajudar",
+      "entities": []
+    },
+    {
+      "text": "olar",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "falou",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "não entendi",
+      "intent": "ajudar",
+      "entities": []
+    },
+    {
+      "text": "quem é vc?",
+      "intent": "consciencia",
+      "entities": []
+    },
+    {
+      "text": "me ajuda",
+      "intent": "ajudar",
+      "entities": []
+    },
+    {
+      "text": "vc é um robô?",
+      "intent": "consciencia",
+      "entities": []
+    },
+    {
+      "text": "quem é você?",
+      "intent": "consciencia",
+      "entities": []
+    },
+    {
+      "text": "quero ajuda",
+      "intent": "ajudar",
+      "entities": []
+    },
+    {
+      "text": "vc é um bot?",
+      "intent": "consciencia",
+      "entities": []
+    },
+    {
+      "text": "como pode me ajudar?",
+      "intent": "ajudar",
+      "entities": []
+    },
+    {
+      "text": "você é um bot ou um ser humano?",
+      "intent": "consciencia",
+      "entities": []
+    },
+    {
+      "text": "você é um bot?",
+      "intent": "consciencia",
+      "entities": []
+    },
+    {
+      "text": "é um robô aqui?",
+      "intent": "consciencia",
+      "entities": []
+    },
+    {
+      "text": "iaê",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "chubas",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como faço minha avaliação",
+      "intent": "ajudar",
+      "entities": []
+    },
+    {
+      "text": "como eu faço meu assessment",
+      "intent": "ajudar",
+      "entities": []
+    },
+    {
+      "text": "como eu te uso",
+      "intent": "ajudar",
+      "entities": []
+    },
+    {
+      "text": "xxx",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quais as emoções dessa foto?",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "existem pessoas nessa foto?",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "tem alguém feliz nesta foto?",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "quero analisar as emoções de uma foto",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "quero saber quais as emoções de uma foto",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "descreva essa imagem",
+      "intent": "descrever-imagem",
+      "entities": []
+    },
+    {
+      "text": "o que tem nesta imagem?",
+      "intent": "descrever-imagem",
+      "entities": []
+    },
+    {
+      "text": "o que você me diz sobre esta imagem?",
+      "intent": "descrever-imagem",
+      "entities": []
+    },
+    {
+      "text": "me diga o que você aprendeu com esta imagem?",
+      "intent": "descrever-imagem",
+      "entities": []
+    },
+    {
+      "text": "informe o que você reconhece desta imagem",
+      "intent": "descrever-imagem",
+      "entities": []
+    },
+    {
+      "text": "o que é possível reconhecer nesta foto?",
+      "intent": "descrever-imagem",
+      "entities": []
+    },
+    {
+      "text": "o que tem nesta foto?",
+      "intent": "descrever-imagem",
+      "entities": []
+    },
+    {
+      "text": "tem pessoas nesta foto?",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "tem rostos nesta imagem?",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "tem alguma face nesta imagem?",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "quantas pessoas tem nesta foto?",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "quantos rostos você pode achar nesta imagem?",
+      "intent": "reconhecer-emocoes",
+      "entities": []
+    },
+    {
+      "text": "essa imagem é de um avião ou um carro?",
+      "intent": "classificar-imagem",
+      "entities": []
+    },
+    {
+      "text": "isso é um carro?",
+      "intent": "classificar-imagem",
+      "entities": []
+    },
+    {
+      "text": "isso é uma moto",
+      "intent": "classificar-imagem",
+      "entities": []
+    },
+    {
+      "text": "isso é uma motocilcleta?",
+      "intent": "classificar-imagem",
+      "entities": []
+    },
+    {
+      "text": "isso é um avião?",
+      "intent": "classificar-imagem",
+      "entities": []
+    },
+    {
+      "text": "isso é um veículo?",
+      "intent": "classificar-imagem",
+      "entities": []
+    },
+    {
+      "text": "que tipo de veículo é esse?",
+      "intent": "classificar-imagem",
+      "entities": []
+    },
+    {
+      "text": "traduz esse texto para mim",
+      "intent": "traduzir-texto",
+      "entities": []
+    },
+    {
+      "text": "quero traduzir um texto",
+      "intent": "traduzir-texto",
+      "entities": []
+    },
+    {
+      "text": "o que isso significa?",
+      "intent": "traduzir-texto",
+      "entities": []
+    },
+    {
+      "text": "que texto é esse",
+      "intent": "traduzir-texto",
+      "entities": []
+    },
+    {
+      "text": "quem compra esse produto também compra o que? 5c5-00025",
+      "intent": "recomendar-por-produto",
+      "entities": [
+        {
+          "entity": "produto",
+          "startPos": 46,
+          "endPos": 54
+        }
+      ]
+    },
+    {
+      "text": "o que vc recomenda para quem compra o produto 5c5-00025",
+      "intent": "recomendar-por-produto",
+      "entities": [
+        {
+          "entity": "produto",
+          "startPos": 46,
+          "endPos": 54
+        }
+      ]
+    },
+    {
+      "text": "o que você me fala sobre esse produto 74u-00088",
+      "intent": "recomendar-por-produto",
+      "entities": [
+        {
+          "entity": "produto",
+          "startPos": 38,
+          "endPos": 46
+        }
+      ]
+    },
+    {
+      "text": "oi, eu comprei o item de id fkf-00882. o que vc me recomenda?",
+      "intent": "recomendar-por-produto",
+      "entities": [
+        {
+          "entity": "produto",
+          "startPos": 28,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "me recomenda algo relacionado ao item dhf-01216 por favor",
+      "intent": "recomendar-por-produto",
+      "entities": [
+        {
+          "entity": "produto",
+          "startPos": 38,
+          "endPos": 46
+        }
+      ]
+    },
+    {
+      "text": "o que vc tem parecido com o p2w-00004",
+      "intent": "recomendar-por-produto",
+      "entities": [
+        {
+          "entity": "produto",
+          "startPos": 28,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "relaciona itens com o produto p2w-00004",
+      "intent": "recomendar-por-produto",
+      "entities": [
+        {
+          "entity": "produto",
+          "startPos": 30,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "oi meu id de usuário é 0003bffdc7118d12",
+      "intent": "recomendar-por-perfil",
+      "entities": [
+        {
+          "entity": "usuario",
+          "startPos": 23,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "o que vc recomenda para um perfil igual ao meu?",
+      "intent": "recomendar-por-perfil",
+      "entities": []
+    },
+    {
+      "text": "quais as sugestões para o meu perfil? meu id é 0003bffda7e04659",
+      "intent": "recomendar-por-perfil",
+      "entities": [
+        {
+          "entity": "usuario",
+          "startPos": 47,
+          "endPos": 62
+        }
+      ]
+    },
+    {
+      "text": "qual suas recomendações para o meu usuário?",
+      "intent": "recomendar-por-perfil",
+      "entities": []
+    },
+    {
+      "text": "o que vc me recomenda?",
+      "intent": "recomendar-por-perfil",
+      "entities": []
+    },
+    {
+      "text": "o que você me sujere?",
+      "intent": "recomendar-por-perfil",
+      "entities": []
+    },
+    {
+      "text": "o que eu recomendo para o usuário 000300009c01c881",
+      "intent": "recomendar-por-perfil",
+      "entities": [
+        {
+          "entity": "usuario",
+          "startPos": 34,
+          "endPos": 49
+        }
+      ]
+    },
+    {
+      "text": "o que sugerir para o 0007bffd81ce685b",
+      "intent": "recomendar-por-perfil",
+      "entities": [
+        {
+          "entity": "usuario",
+          "startPos": 21,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "o que vc me indica?",
+      "intent": "recomendar-por-perfil",
+      "entities": []
+    },
+    {
+      "text": "indica algo para o 00034001ccf224db",
+      "intent": "recomendar-por-perfil",
+      "entities": [
+        {
+          "entity": "usuario",
+          "startPos": 19,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "vc pode descrever imagens?",
+      "intent": "descrever-imagem",
+      "entities": []
+    }
+  ]
+}
